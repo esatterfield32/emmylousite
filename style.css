@@ -1,0 +1,7 @@
+body {background: #FFFDEB; margin: 0; padding: 0;} 
+a {color: #000000;}        
+#container {width: -webkit-fill-available; margin: 0; padding: 0; background: #000000;}           
+#header {width: -webkit-fill-available; 	height: 100px; 	margin: 0; padding: 75; border: 0; background: #9BFBDD;}           
+#sidebar {width: 200px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #FDDF1F;}           
+#content {width: -webkit-fill-available; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #8be0ef;}           
+#footer {width: -webkit-fill-available; 	height: 70px; 	margin: 0; padding: 0; border: 0; float: left; background: #9BFBDD ; clear:both;}    
