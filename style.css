@@ -1,7 +1,23 @@
 body {background: #FFFDEB; margin: 0; padding: 0;} 
 a {color: #000000;}        
-#container {width: -webkit-fill-available; margin: 0; padding: 0; background: #000000;}           
-#header {width: -webkit-fill-available; 	height: 100px; 	margin: 0; padding: 75; border: 0; background: #9BFBDD;}           
-#sidebar {width: 200px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #FDDF1F;}           
+#container {width: -webkit-fill-available; margin: 0; padding: 0; background: #000000;} 
+#sidebar {width: 200px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #fff29c;}           
 #content {width: -webkit-fill-available; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #8be0ef;}           
-#footer {width: -webkit-fill-available; 	height: 70px; 	margin: 0; padding: 0; border: 0; float: left; background: #9BFBDD ; clear:both;}    
+#footer {width: -webkit-fill-available; 	height: 70px; 	margin: 0; padding: 0; border: 0; float: left; background: #9BFBDD ; clear:both;}                            
+#wrapperHeader {
+ width:auto;
+ height: 100px; /* height of the background image? */
+ background:#9BFBDD;
+ text-align:-webkit-center;
+}
+#wrapperHeader #header {
+ width:-50%;
+ height:200px;
+ margin:0 auto;
+}
+#wrapperHeader #header img {
+ width: 40px; /* the width of the logo image */
+ height: 70px; /* the height of the logo image */
+ margin: 0 auto;
+ padding:0px;
+}
