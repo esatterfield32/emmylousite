@@ -87,3 +87,14 @@ nav a:hover, nav li.active a{
     padding: 2%;
     border-radius: 10px;
 }
+
+vid{
+    text-align:center;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+
+.clear{
+    clear : both;
+}
