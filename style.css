@@ -16,13 +16,6 @@ p{
     padding: 20px;
 }
 
-img{
-    text-align : center;
-    max-width: 100%;
-    height: auto;
-    width: auto;
-}
-
 #wrapper{
     margin: 0 auto;
     max-width: 980px;
@@ -35,12 +28,24 @@ header {
     text-align: center;
     max-height:50px;
     margin: 10px auto;
-    max-width: 980px;
+    
     width: 96%;
     background: #FFFDEB;
     padding: 2%;
     border-radius: 10px;
-    
+}
+#header img {
+    margin: 0;
+    text-align: center;
+    height: 50px;
+    width: auto;
+}
+
+img{
+    text-align : center;
+    max-width: 100%;
+    height: auto;
+    width: auto;
 }
 footer{
     margin: 10px auto;
@@ -86,6 +91,12 @@ nav a:hover, nav li.active a{
     background: #FFFDEB;
     padding: 2%;
     border-radius: 10px;
+}
+
+#social img{
+padding-top: 5px;
+height: 50px;
+width :auto;
 }
 
 vid{
