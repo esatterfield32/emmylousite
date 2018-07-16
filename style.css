@@ -8,9 +8,14 @@ h3{
     text-align: center;
     text-decoration: underline, bold;
 }
-h2{
+footer h6{
     text-align: right;
     text-decoration: italic, bold;
+}
+
+h5{
+    text-align: center;
+    text-decoration : none;
 }
 p{
     padding: 20px;
@@ -48,7 +53,7 @@ img{
     width: auto;
 }
 footer{
-    margin: 10px auto;
+    margin: 5px auto;
     max-width: 980px;
     width: 96%;
     background: #FFFDEB;
@@ -134,4 +139,21 @@ width :auto;
 }
 .clear{
     clear : both;
+}
+#card-wrapper{
+    max-width: 980px;
+    border-radius: 10px;
+    background:#FFFDEB;
+    margin-top: 2%;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+#card{
+    max-width: 100%;
+    border-radius: 10px;
+    background:#FFFFFF;
+    margin-top: 2%;
+    padding: 2%;
+    margin-bottom: 2%;
 }
