@@ -82,6 +82,24 @@ nav a:hover, nav li.active a{
     
 }
 
+.sidebar{
+    margin-top: 2%;
+    float: right;
+    width: 33%;
+    height:auto;
+    border-radius:10px;
+    background: #FFFDEB;
+    
+}
+.left-col{
+    margin-top:2%;
+    float:left;
+    height: auto;
+    border-radius:10px;
+    background: #FFFDEB;
+    
+}
+
 #social{
     text-align: center;
     max-height:50px;
@@ -99,8 +117,8 @@ height: 50px;
 width :auto;
 }
 
-vid{
-    text-align:center;
+.vid{
+   float:center;
     padding: 0;
     height: auto;
     width: auto;
