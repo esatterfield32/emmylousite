@@ -20,7 +20,9 @@ h5{
 p{
     padding: 20px;
 }
-
+ a{
+    text-decoration:none;
+ }
 #wrapper{
     margin: 0 auto;
     max-width: 980px;
@@ -94,6 +96,7 @@ aside.sidebar{
     height:auto;
     border-radius:10px;
     background: #FFFDEB;
+    text-align:center;
     
 }
 .left-col{
