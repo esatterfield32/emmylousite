@@ -90,7 +90,7 @@ nav a:hover, nav li.active a{
 aside.sidebar{
     margin-top: 2%;
     float: right;
-    width: 33%;
+    width: 30%;
     height:auto;
     border-radius:10px;
     background: #FFFDEB;
@@ -102,7 +102,8 @@ aside.sidebar{
     height: auto;
     border-radius:10px;
     background: #FFFDEB;
-    width:65%;
+    width:64%;
+    padding:2%;
     
 }
 
@@ -156,4 +157,28 @@ width :auto;
     margin-top: 2%;
     padding: 2%;
     margin-bottom: 2%;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #fff29c;
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    background-color: #fff29c;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #9BFBDD;
 }
