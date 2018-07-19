@@ -1,11 +1,11 @@
 <?php
-if(isset($_POST['send'])){
+if($_SERVER['REQUEST_METHOD'] == "POST"){
     $to = 'esatterfield32@gmail.com';
     $subject = "Website Contact";
     
-    $message = 'Name: ' .$_POST['fname']. " " .$_POST['lname']. "\r\n\r\n";
-    $message .= 'Email: ' .$_POST['email'] . "\r\n\r\n";
-    $message .= 'Message: ' .$_POST['message'] . "\r\n\r\n";
+    $message = 'Name: ' .$_REQUEST['fname']. " " .$_REQUEST['lname']. "\r\n\r\n";
+    $message .= 'Email: ' .$_REQUEST['email'] . "\r\n\r\n";
+    $message .= 'Message: ' .$_REQUEST['message'] . "\r\n\r\n";
     
 }
 echo $message;
